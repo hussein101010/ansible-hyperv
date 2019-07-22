@@ -1,6 +1,6 @@
 ---
 - name: Win ping
-  hosts: b07.lab.ltsai.com
+  hosts: 172.18.69.58
   gather_facts: no
 
   tasks:
