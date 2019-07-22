@@ -4,4 +4,4 @@
   gather_facts: no
 
   tasks:
-    - ping:
+    - win_ping:
