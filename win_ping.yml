@@ -4,5 +4,5 @@
   gather_facts: no
 
   tasks:
-    - script: C:\Users\hp\Desktop\ping.ps1
+    - script: ping.ps1
     
