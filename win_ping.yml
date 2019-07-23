@@ -1,7 +1,7 @@
 ---
 - name: Win ping
-  hosts: localhost
+  hosts: 172.18.69.53
   gather_facts: no
 
   tasks:
-     - ping: 10.27.5.129
+     - ping:
