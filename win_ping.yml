@@ -4,4 +4,4 @@
   gather_facts: no
 
   tasks:
-     - ping:
+     - ping: 10.27.5.129
