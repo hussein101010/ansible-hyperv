@@ -4,5 +4,5 @@
   gather_facts: no
 
   tasks:
-    - win_shell: ping.ps1
+    - command: sh ping2.sh
     
