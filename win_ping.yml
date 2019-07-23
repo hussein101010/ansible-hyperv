@@ -4,5 +4,5 @@
   gather_facts: no
 
   tasks:
-    - win_shell: '.\test.ps1'
-    - win_shell: '.\test2.ps1'
+    - win_shell: 'ping.ps1'
+    
