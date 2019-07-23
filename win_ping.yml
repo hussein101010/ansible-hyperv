@@ -4,4 +4,4 @@
   gather_facts: no
 
   tasks:
-    - win_shell: ping5.ps1
+    - win_shell: ping.ps1
