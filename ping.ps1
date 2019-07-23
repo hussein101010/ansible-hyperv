@@ -1,2 +1,3 @@
+#!/bin/bash
 $ping = New-Object System.Net.Networkinformation.Ping
-1..254 | % { $ping.send(“172.18.69.$_”) | select address, status }
+1..254 | % { $ping.send(â€œ172.18.69.$_â€) | select address, status }
