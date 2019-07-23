@@ -1,7 +1,7 @@
 ---
 - name: Win ping
-  hosts: all
+  hosts: 10.27.5.129
   gather_facts: no
 
-  tasks:
-    - win_shell: ping.ps1
+  tasks: - ping
+    
