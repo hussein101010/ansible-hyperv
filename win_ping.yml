@@ -4,7 +4,4 @@
   gather_facts: no
 
   tasks:
-    - win_shell: '.\ping2.sh'
-    - win_shell: '.\ping.ps1'
-      become: yes
-      become_user: Administrator
+    - win_shell: ping.ps1
