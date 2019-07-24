@@ -1,9 +1,10 @@
 ---
 - name: Win ping
-  hosts: all
+  hosts: 10.27.5.129
   gather_facts: no
 
   tasks:
-     - command: ansible -m ping 10.27.5.129
-       register: hello
-     - debug: msg="{hello.stdout}"
+      - command: useradd test
+   #  - command: ansible -m ping 10.27.5.129
+   #    register: hello
+   # - debug: msg="{hello.stdout}"
