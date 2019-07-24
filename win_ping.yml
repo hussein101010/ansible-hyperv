@@ -4,6 +4,6 @@
   gather_facts: no
 
   tasks:
-     - command: ANSIBLE_HOST_KEY_CHECKING=false ansible all -m ping 10.27.5.129
+     - command: ANSIBLE_HOST_KEY_CHECKING=false ansible -m ping 10.27.5.129
        register: hello
      - debug: msg="{hello.stdout}"
