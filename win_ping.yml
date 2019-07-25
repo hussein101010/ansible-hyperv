@@ -1,6 +1,6 @@
 ---
 - name: Win ping
-  hosts: 172.18.69.53
+  hosts: localhost
   gather_facts: no
 
   tasks:
