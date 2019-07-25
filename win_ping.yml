@@ -2,11 +2,11 @@
 - name: Win ping
   hosts: localhost
   gather_facts: no
-
+  authorized_key: user='root' key="{{lookup('file','/root/.ssh/id_rsa.pub')}}"
   tasks:
        - command: useradd test
          delegate_to: "10.27.5.129"
-         authorized_key: user='root' key="{{lookup('file','/root/.ssh/id_rsa.pub')}}"
+         
    #  - command: ansible -m ping 10.27.5.129
    #    register: hello
    # - debug: msg="{hello.stdout}"
